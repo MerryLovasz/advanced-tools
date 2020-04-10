@@ -1,2 +1,2 @@
 # advanced-tools
-My Assignment for the Advanced Tools course/
+My assignment for the Advanced Tools course.
