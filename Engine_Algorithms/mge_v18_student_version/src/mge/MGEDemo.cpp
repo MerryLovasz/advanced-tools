@@ -63,10 +63,10 @@ void MGEDemo::_initializeScene()
     _world->add(camera);
     _world->setMainCamera(camera);
 
-	int DynamicObjCount = 10;
+	int DynamicObjCount = 150;
 
-	int width = 4;
-	int height = 4;
+	int width = 0;
+	int height = 0;
 	int staticObjectCount = width * height;
 	int objectCount = staticObjectCount + DynamicObjCount;
 
@@ -87,7 +87,7 @@ void MGEDemo::_initializeScene()
 	}
 
 
-	//static objects in grid shape
+/*	//static objects in grid shape
 	for (int i = 0; i < width; i++) { //width
 		for (int j = 0; j < height; j++) { //height
 			glm::vec3 pos = glm::vec3(i * 2.f, 0, j * 2.f); 
@@ -99,7 +99,7 @@ void MGEDemo::_initializeScene()
 			_world->add(cubeS);
 			_octree->Add(cubeS);
 		}
-	}
+	}*/
 	
 }
 

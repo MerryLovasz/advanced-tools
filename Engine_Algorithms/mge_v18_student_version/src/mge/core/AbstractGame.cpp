@@ -93,7 +93,8 @@ void AbstractGame::_initializeOctree(int pObjectCount)
 	//setup the Octree
 //	std::cout << "Initializing octree..." << '\n';
 	nodes = pObjectCount;
-	level = floor(log(7 * nodes + 1) / log(8));
+//	level = floor(log(7 * nodes + 1) / log(8));
+	level = 3;
 	std::cout << "Octree Level: " << level << std::endl;
 	_octree = new Octree(glm::vec3(0, 0, 0), glm::vec3(25, 25, 25), (int)level);
 //	std::cout << "Octree initialized." << '\n' << '\n';
@@ -201,7 +202,7 @@ void AbstractGame::_processEvents()
 	}
 
 
-	if (exit || secondsPassed >= 10.f /*|| totalFrames >= 1000*/) {
+	if (exit || secondsPassed >= 5.f /*|| totalFrames >= 1000*/) {
         _window->close();
 	}
 }
