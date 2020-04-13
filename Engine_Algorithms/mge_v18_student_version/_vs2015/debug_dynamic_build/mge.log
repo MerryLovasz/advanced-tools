@@ -1,29 +1,4 @@
-﻿  main.cpp
-  AbstractBehaviour.cpp
-  KeysBehaviour.cpp
-  RotatingBehaviour.cpp
+﻿  MGEDemo.cpp
   AbstractGame.cpp
-  Camera.cpp
-  GameObject.cpp
-  Light.cpp
-  Mesh.cpp
-  Renderer.cpp
-  ShaderProgram.cpp
-  Texture.cpp
-  World.cpp
-  AbstractMaterial.cpp
-  ColorMaterial.cpp
-  TextureMaterial.cpp
-  MGEDemo.cpp
-  AABB.cpp
-  Pair.cpp
-  Collider.cpp
   Generating Code...
-c:\users\ayla\desktop\advanced-tools\engine_algorithms\mge_v18_student_version\src\mge\octree\level\aabb.cpp(29): warning C4715: 'AABB::CollidesWith': not all control paths return a value
-  Compiling...
-  Octree.cpp
-  OBB.cpp
-  DebugHud.cpp
-  Generating Code...
-c:\users\ayla\desktop\advanced-tools\engine_algorithms\mge_v18_student_version\src\mge\octree\level\obb.cpp(30): warning C4715: 'OBB::CollidesWith': not all control paths return a value
   mge.vcxproj -> C:\Users\Ayla\Desktop\advanced-tools\Engine_Algorithms\mge_v18_student_version\_vs2015\debug_dynamic_exe/mge.exe
