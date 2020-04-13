@@ -1,37 +1,7 @@
-﻿  Octree.cpp
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3520): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Pair' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(284): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(321): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3520): note: or       'built-in C++ operator==(_Ty, _Ty)'
-          with
-          [
-              _Ty=GameObject *
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3520): note: while trying to match the argument list '(Pair, const _Ty)'
-          with
-          [
-              _Ty=GameObject *
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3533): note: see reference to function template instantiation '_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,const _InIt,const _Ty &,std::false_type)' being compiled
-          with
-          [
-              _InIt=Pair *,
-              _Ty=GameObject *
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3542): note: see reference to function template instantiation '_InIt std::_Find_unchecked<Pair*,_Ty>(const _InIt,const _InIt,const _Ty &)' being compiled
-          with
-          [
-              _InIt=Pair *,
-              _Ty=GameObject *
-          ]
-  c:\users\ayla\desktop\enginealgorithmsgit\engine algorithms\mge_v18_student_version\src\mge\octree\level\levels\octree.cpp(138): note: see reference to function template instantiation '_InIt std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,GameObject*>(_InIt,const _InIt,GameObject *const &)' being compiled
-          with
-          [
-              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Pair>>>,
-              _Ty=Pair
-          ]
+﻿  MGEDemo.cpp
+  Generating code
+  1 of 1088 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  mge.vcxproj -> C:\Users\Ayla\Desktop\advanced-tools\Engine_Algorithms\mge_v18_student_version\_vs2015\release_dynamic_exe/mge.exe
