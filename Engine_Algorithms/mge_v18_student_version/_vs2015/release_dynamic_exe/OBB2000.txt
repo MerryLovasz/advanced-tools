@@ -1,0 +1,12 @@
+Total amount of objects: 2000
+Octree Level: 3
+Time Between Frames: 200
+FPS: 5
+Time Between Frames: 1000
+FPS: 1
+Time Between Frames: inf
+FPS: 0
+Time Between Frames: inf
+FPS: 0
+Time Between Frames: inf
+FPS: 0
