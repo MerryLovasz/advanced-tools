@@ -94,7 +94,7 @@ void AbstractGame::_initializeOctree(int pObjectCount)
 //	std::cout << "Initializing octree..." << '\n';
 	nodes = pObjectCount;
 //	level = floor(log(7 * nodes + 1) / log(8));
-	level = 3;
+	level = 6;
 	std::cout << "Octree Level: " << level << std::endl;
 	_octree = new Octree(glm::vec3(0, 0, 0), glm::vec3(25, 25, 25), (int)level);
 //	std::cout << "Octree initialized." << '\n' << '\n';
