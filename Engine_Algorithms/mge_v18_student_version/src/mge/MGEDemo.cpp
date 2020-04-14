@@ -63,7 +63,7 @@ void MGEDemo::_initializeScene()
     _world->add(camera);
     _world->setMainCamera(camera);
 
-	int DynamicObjCount = 2500;
+	int DynamicObjCount = 500;
 
 	int width = 0;
 	int height = 0;
@@ -85,6 +85,18 @@ void MGEDemo::_initializeScene()
 		_world->add(cubeD);
 		_octree->Add(cubeD);
 	}
+
+	//dynamic objects OBB
+/*	for (int i = 0; i < DynamicObjCount; i++) {
+		GameObject * cubeD = new GameObject("dynamic cube", glm::vec3(i * 0.4f, i * 0.1f, 0));
+		cubeD->setMesh(cubeMeshF);
+		cubeD->setMaterial(cubeDynamicMaterial);
+		cubeD->SetHitMaterial(cubeHitMaterial);
+		cubeD->SetCollider(new OBB(cubeD, glm::vec3(0.f, 0.f, 0.f), glm::vec3(0.5f, 0.5f, 0.5f)));
+		cubeD->setBehaviour(new RotatingBehaviour(glm::vec3(0.1f, 0.1f, 0.1f)));
+		_world->add(cubeD);
+		_octree->Add(cubeD);
+	}*/
 
 
 /*	//static objects in grid shape
