@@ -1,0 +1,12 @@
+Total amount of objects: 1500
+Octree Level: 2
+Time Between Frames: 20.4082
+FPS: 49
+Time Between Frames: 1.75747
+FPS: 569
+Time Between Frames: 1.78571
+FPS: 560
+Time Between Frames: 1.78253
+FPS: 561
+Time Between Frames: 1.77936
+FPS: 562
