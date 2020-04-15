@@ -65,10 +65,12 @@ void MGEDemo::_initializeScene()
 
 	int DynamicObjCount = 500;
 
-	int width = 0;
+/*	int width = 0;
 	int height = 0;
 	int staticObjectCount = width * height;
-	int objectCount = staticObjectCount + DynamicObjCount;
+	int objectCount = staticObjectCount + DynamicObjCount;*/
+
+	int objectCount = DynamicObjCount;
 
 	printf("Total amount of objects: %i\n", objectCount);
 	

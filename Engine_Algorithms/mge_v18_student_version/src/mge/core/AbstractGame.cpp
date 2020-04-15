@@ -92,7 +92,7 @@ void AbstractGame::_initializeOctree(int pObjectCount)
 {
 	//setup the Octree
 //	std::cout << "Initializing octree..." << '\n';
-	nodes = pObjectCount;
+//	nodes = pObjectCount;
 //	level = floor(log(7 * nodes + 1) / log(8));
 	level = 3;
 	std::cout << "Octree Level: " << level << std::endl;
