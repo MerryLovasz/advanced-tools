@@ -2,7 +2,7 @@
 #include "mge/core/GameObject.hpp"
 #include <cstdlib>
 
-RotatingBehaviour::RotatingBehaviour(glm::vec3 pVelocity) :AbstractBehaviour(), velocity(pVelocity)
+MovingBehaviour::MovingBehaviour(glm::vec3 pVelocity) :AbstractBehaviour(), velocity(pVelocity)
 {
 	//ctor
 
@@ -15,12 +15,12 @@ RotatingBehaviour::RotatingBehaviour(glm::vec3 pVelocity) :AbstractBehaviour(), 
 	velocity = glm::vec3(x, y, z);
 }
 
-RotatingBehaviour::~RotatingBehaviour()
+MovingBehaviour::~MovingBehaviour()
 {
 	//dtor
 }
 
-void RotatingBehaviour::update(float pStep)
+void MovingBehaviour::update(float pStep)
 {
 	//Taken from Quadtree project by Eelco Jannick
 	float radius = 15;

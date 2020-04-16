@@ -7,11 +7,11 @@
 /**
  * Simply rotates the object around its origin with a fixed speed.
  */
-class RotatingBehaviour : public AbstractBehaviour
+class MovingBehaviour : public AbstractBehaviour
 {
 	public:
-		RotatingBehaviour(glm::vec3 _velocity = glm::vec3(0.0f, 0.0f, 0.0f));
-		virtual ~RotatingBehaviour();
+		MovingBehaviour(glm::vec3 _velocity = glm::vec3(0.0f, 0.0f, 0.0f));
+		virtual ~MovingBehaviour();
 
 		virtual void update(float pStep);
 

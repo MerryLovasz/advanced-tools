@@ -83,7 +83,7 @@ void MGEDemo::_initializeScene()
 		cubeD->setMaterial(cubeDynamicMaterial);
 		cubeD->SetHitMaterial(cubeHitMaterial);
 		cubeD->SetCollider(new AABB(cubeD, glm::vec3(0.f, 0.f, 0.f), glm::vec3(0.5f, 0.5f, 0.5f)));
-		cubeD->setBehaviour(new RotatingBehaviour(glm::vec3(0.1f, 0.1f, 0.1f)));
+		cubeD->setBehaviour(new MovingBehaviour(glm::vec3(0.1f, 0.1f, 0.1f)));
 		_world->add(cubeD);
 		_octree->Add(cubeD);
 	}
